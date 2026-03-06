@@ -1,0 +1,90 @@
+body {
+    background-color: #1C1C1C;
+}
+
+h1.title {
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+main {
+    background-color: #000000;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-style: double;
+    border-radius: 15px;
+}
+
+div.card {
+    border-radius: 12px;
+    padding: 20px;
+
+    display: flex;
+
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+div.card button {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+div.card button.play {
+    color: white;
+    background-color: #28a745;
+}
+
+div.card button.pause {
+    color: white;
+    background-color: #ffc107;
+}
+
+div.timer {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    font-size: 80px;
+}
+
+div.mode {
+    display: flex;
+    justify-content: center;
+
+    border-bottom-left-radius: 1px;
+}
+
+div.mode button {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    border: 1px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+div.mode button:hover {
+    background-color: #aaaaaa;
+}
+
+div.mode button.active {
+    background-color: #444444;
+    transform: scale(0.98);
+}

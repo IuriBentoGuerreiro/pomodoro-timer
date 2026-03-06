@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="title">
+        Timer Pomodoro
+    </h1>
+
+    <main>
+        <div class="mode">
+            <button class="pomodoro active">Pomodoro</button>
+
+            <button class="break">Descanso</button>
+        </div>
+
+        <div class="timer">
+            <p id="timer"></p>
+        </div>
+
+        <div class="card">
+            <button onclick="startTimer()" class="play">Play ▶︎</button>
+
+            <button onclick="pause()" class="pause">Pause ❚❚</button>
+        </div>
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
