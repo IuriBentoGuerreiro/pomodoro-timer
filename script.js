@@ -9,6 +9,8 @@ const times = {
     'break': 5
 };
 
+LoadTimer()
+
 modes.forEach(button => {
     button.addEventListener('click', function () {
         modes.forEach(m => m.classList.remove('active'));
